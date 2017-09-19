@@ -1,0 +1,40 @@
+
+.comments {
+
+  .addcomment {
+    
+    &.loggedout {
+      text-align: center;      
+    }
+    
+    &.loggedin {
+
+    }
+    
+  }
+
+  .comment {
+
+    .UserPhoto {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 2.5em;
+      height: 2.5em;
+    }
+
+  }
+
+  .comment-cont {
+    display: flex;
+    position: relative;
+    padding-left: 3em;
+    min-height: 3em;
+  }
+
+  .reactions {
+    padding: 0 0 1em 0;
+  }
+}
+
+
