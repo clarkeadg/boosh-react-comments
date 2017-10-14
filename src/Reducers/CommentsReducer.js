@@ -3,6 +3,7 @@ import Immutable from 'seamless-immutable'
 import { createReducer } from 'reduxsauce'
 
 const result = {
+  'discussion': {},
   'profile': {},
   'comment': {},
   'video': {}
